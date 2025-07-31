@@ -15,7 +15,7 @@ public class HomeController {
 
     @GetMapping("/hello")
     public List<String> hello(){
-        return List.of("hello","world");
+        return List.of("hello","world123");
     }
 
 }
