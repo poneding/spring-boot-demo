@@ -36,21 +36,21 @@ public class Response<T> {
         return response;
     }
 
-//    public T getData() {
-//        return data;
-//    }
-//
-//    public void setData(T data) {
-//        this.data = data;
-//    }
-//
-//    public Integer getCode() {
-//        return code;
-//    }
-//
-//    public void setCode(Integer code) {
-//        this.code = code;
-//    }
+    // public T getData() {
+    //     return data;
+    // }
+    //
+    // public void setData(T data) {
+    //     this.data = data;
+    // }
+    //
+    // public Integer getCode() {
+    //     return code;
+    // }
+    //
+    // public void setCode(Integer code) {
+    //     this.code = code;
+    // }
 
     // Spring Boot 使用 Jackson 进行 JSON 序列化时，会自动把 getXxx()
     // 或 isXxx() 的方法序列化为 JSON 字段，可以使用 @JsonIgnore 标注
@@ -59,11 +59,11 @@ public class Response<T> {
         return code != null && code == 1;
     }
 
-//    public String getErrorMsg() {
-//        return errorMsg;
-//    }
-//
-//    public void setErrorMsg(String errorMsg) {
-//        this.errorMsg = errorMsg;
-//    }
+    // public String getErrorMsg() {
+    //     return errorMsg;
+    // }
+    //
+    // public void setErrorMsg(String errorMsg) {
+    //     this.errorMsg = errorMsg;
+    // }
 }
